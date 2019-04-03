@@ -99,3 +99,61 @@ footer{
     height: 50px;
     margin-top: -50px;
 }
+@media screen and (max-width:980px){
+    #center {
+        width:720px;
+    }
+    #links {
+        width:720px;
+    }
+    #name, #email, #message{
+        width: 100%;
+    }
+    }
+    
+@media screen and (max-width:762px){
+    #center {
+        width:580px;
+    }
+    #links{
+        width:580px;
+    }
+    #name, #email, #message{
+        width: 100%;
+    }
+    }
+@media screen and (max-width:640px){  
+    #center {
+        width: 90%;
+    }
+    #gavin{
+        width: 100%;
+        position: static;
+    }
+    #links{
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    #about,#portfolio,#contact{
+        text-align: center;
+    }
+    #about{
+        position: absolute;
+        left: 29%;
+        top: 75px;
+    }
+    #portfolio{
+        position: absolute;
+        left: 43%;
+        top: 75px;
+    }
+    #contact{
+        position: absolute;
+        left: 59%;
+        top: 75px;
+    }
+    .break{
+        visibility: hidden;
+    }
+    }

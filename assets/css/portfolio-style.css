@@ -127,3 +127,97 @@ footer{
     height: 50px;
     margin-top: -50px;
 }
+@media screen and (max-width:980px){
+    #center {
+        width:646px;
+    }
+    #links {
+        width:720px;
+    }
+    #project2{
+        position: absolute;
+        left: 50%;
+    }
+    #project4{
+        position:absolute;
+        left: 50%;
+        top: 40%;
+    }
+    }
+    @media screen and (max-width:762px){
+        #center {
+            width:580px;
+        }
+        #links{
+            width:580px;
+        }
+        #project2{
+            position: absolute;
+            left: 50%;
+        }
+        #project4{
+            position:absolute;
+            left: 50%;
+            top: 40%;
+        }
+        img{
+            width: 260px;
+        }
+        #p1s, #p2s, #p3s, #p4s, #p5s{
+            width: 260px;
+        }
+    }
+    @media screen and (max-width:640px){
+        #center {
+            width: 90%;
+        }
+        #gavin{
+            width: 100%;
+            position: static;
+        }
+        #links{
+            width: 100%;
+            text-align: center;
+            position: static;
+        }
+        #about,#portfolio,#contact{
+            text-align: center;
+        }
+        #about{
+            position: absolute;
+            left: 29%;
+            top: 75px;
+        }
+        #portfolio{
+            position: absolute;
+            left: 43%;
+            top: 75px;
+        }
+        #contact{
+            position: absolute;
+            left: 59%;
+            top: 75px;
+        }
+        .break{
+            visibility: hidden;
+        }
+        #project1, #project2, #project3, #project4, #project5{
+            position:initial;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            width: 100%;
+            height: 300px;
+        }
+        #p1s, #p2s, #p3s, #p4s, #p5s{
+            width: 100%;
+        }
+        #main{
+           min-height: 210%;
+        }
+        #center{
+            height: 210%
+        }
+    }
